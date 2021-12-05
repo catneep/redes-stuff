@@ -13,13 +13,13 @@
 	<key>PayloadDescription</key>
 	<string>Configures VPN settings</string>
 	<key>PayloadDisplayName</key>
-	<string>algo-server</string>
+	<string>algo-server-cool</string>
 	<key>PayloadIdentifier</key>
-	<string>com.apple.vpn.managed.algo-server9D18FBEE-C185-5F8B-9A48-C873BB65BB8E</string>
+	<string>com.apple.vpn.managed.algo-server-cool9D18FBEE-C185-5F8B-9A48-C873BB65BB8E</string>
 	<key>PayloadType</key>
 	<string>com.apple.vpn.managed</string>
 	<key>PayloadUUID</key>
-	<string>algo-server9D18FBEE-C185-5F8B-9A48-C873BB65BB8E</string>
+	<string>algo-server-cool9D18FBEE-C185-5F8B-9A48-C873BB65BB8E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>Proxies</key>
@@ -30,7 +30,7 @@
 		<integer>0</integer>
 	</dict>
 	<key>UserDefinedName</key>
-	<string>AlgoVPN algo-server</string>
+	<string>AlgoVPN algo-server-cool</string>
 	<key>VPN</key>
 	<dict>
     <key>OnDemandEnabled</key>
@@ -45,7 +45,7 @@
 		<key>AuthenticationMethod</key>
 		<string>Password</string>
 		<key>RemoteAddress</key>
-		<string>159.65.218.137:51820</string>
+		<string>137.184.153.64:51820</string>
 	</dict>
 	<key>VPNSubType</key>
 	<string>com.wireguard.ios</string>
@@ -55,22 +55,22 @@
 	<dict>
 		<key>WgQuickConfig</key>
 		<string>[Interface]
-        PrivateKey = mE1i5HowuCgG3XtPMha8KPv6Hn6XWDtjyqp5ydShrkY=
+        PrivateKey = 8DAJc4AEln5KQ7585hQC8GFc9aUBild9IEtYmq45JnY=
         Address = 10.49.0.7 ,2001:db8:a160::7
-        DNS =  172.31.171.100, fd00::f:ab64 
+        DNS =  172.20.96.116, fd00::4:6074 
 
         [Peer]
-        PublicKey = AaBoyFaXbsEawcplqyhmcIHR7zm+IHSvaY+iuvG1D0U=
-        PresharedKey = lgB5Kb9EmKVAfqshktZe9tmJSvGbBhz8Vx6t7bjUDX8=
+        PublicKey = D81PrOX3GHa4H9iLIR/+1PjAvvB14Z7kx3AYYpSLdhM=
+        PresharedKey = O0AQSGdG1idmjv8YE2VVQU53YMGyyHBuwyl5y30BbX4=
         AllowedIPs = 0.0.0.0/0,::/0
-        Endpoint = 159.65.218.137:51820
+        Endpoint = 137.184.153.64:51820
 </string>
 	</dict>
 </dict>  </array>
   <key>PayloadDisplayName</key>
-  <string>AlgoVPN algo-server WireGuard</string>
+  <string>AlgoVPN algo-server-cool WireGuard</string>
   <key>PayloadIdentifier</key>
-  <string>donut.local.7BAA0121-C4E3-55D0-9634-5335EA694E58</string>
+  <string>donut.local.ADCBB058-806F-5441-ACCC-2D722F84A5B1</string>
   <key>PayloadOrganization</key>
   <string>AlgoVPN</string>
   <key>PayloadRemovalDisallowed</key>
@@ -78,7 +78,7 @@
   <key>PayloadType</key>
   <string>Configuration</string>
   <key>PayloadUUID</key>
-  <string>906F599A-5733-5653-948D-73EA2BBEA2B2</string>
+  <string>0752B106-724F-5513-85A6-F7A5CB86D7D3</string>
   <key>PayloadVersion</key>
   <integer>1</integer>
 </dict>
